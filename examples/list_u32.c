@@ -10,6 +10,8 @@ void trav_print_and_sum(const cdada_list_t* s, const void* k, void* opaque){
 
 	*o += key;
 	fprintf(stdout, "\t[%u] cnt=%u\n", key, *o);
+
+ddd
 }
 
 int main(int args, char** argv){
